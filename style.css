@@ -1,58 +1,48 @@
-
-* {
-  box-sizing: border-box;
-}
-
 body {
-  margin: 0;
+  background-color: black;
+  color: white;
+  font-size: 24;
+  font-family: tahoma;
+  text-align: left;
 }
 
-/* Style the header */
-.header {
-  background-color: #f1f1f1;
-  padding: 20px;
+p {
+  font-size: 18px;
+}
+
+
+h1 {
+  color: red;
   text-align: center;
+  font-family: verdana;
+  font-size: 72;
+  font-weight: bold;
 }
 
-/* Style the top navigation bar */
-.topnav {
-  overflow: hidden;
-  background-color: #333;
-}
-
-/* Style the topnav links */
-.topnav a {
-  float: left;
-  display: block;
-  color: #f2f2f2;
+h2 {
+  color: red;
   text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
+  font-family: verdana;
+  font-size:45;
+  font-weight: bold;
 }
 
-/* Change color on hover */
-.topnav a:hover {
-  background-color: #ddd;
-  color: black;
+/* unvisited link */
+a:link {
+  color: red;
 }
 
-/* Create three equal columns that floats next to each other */
-.column {
-  float: left;
-  width: 33.33%;
-  padding: 15px;
+/* visited link */
+a:visited {
+  color: green;
 }
 
-/* Clear floats after the columns */
-.row::after {
-  content: "";
-  display: table;
-  clear: both;
+/* mouse over link */
+a:hover {
+  color: hotpink;
 }
 
-/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
-@media screen and (max-width:600px) {
-  .column {
-    width: 100%;
-  }
+/* selected link */
+a:active {
+  color: blue;
 }
